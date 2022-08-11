@@ -8,3 +8,10 @@ string [] array = new string [N];
         Console.WriteLine($"Введите элимент массива с индексом {i}");
         array[i] = Console.ReadLine();        
 }
+
+Console.Write("Mассив: [");
+for(i=0; i<N; i++){
+Console.Write(array[i] + " ");
+}
+Console.Write("]");
+

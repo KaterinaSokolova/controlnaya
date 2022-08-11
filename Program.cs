@@ -25,6 +25,18 @@ Console.WriteLine();
 
 string [] array2 = new string [count];
 
+int j = 0;
+Console.Write("Новый массив: [");
+for(i=0; i<N;i++){
+    if(array[i].Length<=3){
+        array2[j] = array[i];
+        Console.Write(array2[j] + " ");
+        j++;
+            }
+
+}
+Console.Write("]");
+Console.WriteLine();
 
 
 

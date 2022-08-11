@@ -15,3 +15,17 @@ Console.Write(array[i] + " ");
 }
 Console.Write("]");
 
+int count = 0;
+for(i=0; i<N; i++){
+    if(array[i].Length<=3){
+        count++;
+    }
+}
+Console.WriteLine();
+
+
+
+
+
+
+

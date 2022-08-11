@@ -23,6 +23,11 @@ for(i=0; i<N; i++){
 }
 Console.WriteLine();
 
+string [] array2 = new string [count];
+
+
+
+
 
 
 
